@@ -1,0 +1,120 @@
+* {  
+
+  box-sizing: border-box;  
+
+  font-family: 'Montserrat', sans-serif;  
+
+ 
+ 
+
+}  
+
+ 
+ 
+
+ 
+ 
+
+img {  
+
+  position: relative;  
+
+  top: 30px;  
+
+  left: 50px;  
+
+  width: 350px;  
+
+  height: 250px;  
+
+}    
+
+ 
+ 
+
+aside {  
+
+  float : left;  
+
+  margin : 8px;  
+
+  width : 35%;  
+
+}  
+
+ 
+ 
+
+span {  
+
+  display : inline-block;  
+
+  color : #4B0082;  
+
+  width : 10rem;  
+
+}   
+
+ 
+ 
+
+span2 {  
+
+  display : inline-block;  
+
+  color : #4B0082;  
+
+  width : 20rem;  
+
+}   
+
+ 
+ 
+
+   
+
+ 
+ 
+
+h1 {     
+
+  color : #4B0082;  
+
+  text-align : left;  
+
+}  
+
+ 
+ 
+
+h2 {     
+
+  color : #4B0082;  
+
+  text-align : left;  
+
+}  
+
+ 
+ 
+
+hr {  
+
+  border-color : #4B0082;  
+
+}  
+
+h3 { 
+
+  color: #C8C8C8 
+
+} 
+
+ 
+ 
+
+p {  
+
+  font-size : 12pt;  
+
+}  

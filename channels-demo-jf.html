@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+   
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="messages.js"></script>	
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
+		<style>
+			* {
+				box-sizing: border-box;
+				font-family: 'Montserrat', sans-serif;
+			}
+			html, body {
+				height : 100%;
+				margin : 0px;
+			}
+			div {
+				display :inline-block;
+			}			
+			.main-header {
+				height : 30px;
+			}
+			.main-section {
+				position: relative;
+				display :inline-block;
+				width : 85%;	
+				float : left;		
+				padding : 5px 10px;	
+				height: 100%;
+				margin-top : 2.5rem;
+			}
+			#messages-list {
+				margin : auto 0;
+    			height: 30em;
+    			overflow-y: scroll;
+    			border: 1px blue solid;		
+    			padding: 0.2rem 1rem;		
+			}
+			.message-row {
+				display: inline-block;
+				width :100%;
+				margin-bottom: 20px;
+			}
+			.message-image {
+				display : inline-block;
+				width : 10%;	
+				float : left;
+				min-width: 30px;
+				max-width: 30px;			
+			}
+			.message-image img {
+				max-width: 60px;
+			}
+			.message-meta-text {
+				display : inline-block;
+				width : 90%;	
+				float : right;	
+				padding : 0.2em 0.2em 0.2em 0.2em;					
+			}				
+			.message-text {
+				display : inline-block;
+				width : 100%;	
+				float : left;	
+			}	
+			.message-time {
+				display : inline-block;
+				font-size: 0.8rem;	
+			}				
+			.message-author {
+				display: inline-block;
+				vertical-align: top;				
+				font-weight: bold;	
+				padding : 0.2em 2em 0.2em 0em;
+				width : 5rem;	
+			}		
+			.message-box {
+				width : 80%;
+				font-size: 1em;
+				margin : 1em, auto;
+				height : 5em;
+			}
+			footer {
+				margin : 1em 0em;
+			}
+
+			#message {
+				width : 100%;
+				font-size: 1em;
+			}
+ul {
+  list-style-type: none;
+  margin: 0%;
+  width: 20%;
+  background-color: #5309A8;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  float: left;
+  padding: 10px;
+}
+li{
+	padding: 8px 16px;
+	color: #FFFFFF;
+	font-size: 1.25em;
+}
+h2{
+	color:#FFFFFF;
+
+}
+		</style>
+	</head>
+	<body>
+		
+			
+			<ul>
+				<li>Justin</li>
+				<h2 align = center>Channels</h2>
+				<li>Sports</li>
+				<li>Shows</li>
+				<li>Movies</li>
+				<li>Pets</li>
+			</ul>
+		</nav>
+		<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<section class="main-section">	
+	
+		
+			<section id="messages-list">
+		
+			</section>
+			
+			
+		<footer><textarea id="message" rows="4" cols="100" placeholder="Type message"></textarea></footer>
+						
+		</section>
+
+		</div>
+	</body>
+</html>
